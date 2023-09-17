@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Nav = () => {
   return (
-    <nav className="w-full bg-[#660000] ">
-      <header className="p-[28px] flex items-center justify-between mx-auto md:w-[1202px]">
+    <nav className="w-full bg-[#660000]">
+      <header className="p-[28px] flex items-center justify-between mx-auto max-w-[1400px]  w-full">
         <div className="logo flex items-center gap-2 ">
           <img src={Logo} alt="logo" />
           <img src={Yinkus} alt="logoName" />
