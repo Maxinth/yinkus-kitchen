@@ -1,7 +1,8 @@
 import ValuesBox from "./ValuesBox";
 import { data } from "./data";
+
 const CoreValues = () => {
-  const { text } = data;
+  const { text, values } = data;
   return (
     <section className="w-full">
       <div className="mt-[50px] px-[33px] md:max-w-[920px] md:mx-auto">
@@ -15,10 +16,14 @@ const CoreValues = () => {
         ))}
       </div>
       <div className="mt-[50px]">
-        <h3 className="uppercase text-center text-[18px] font-medium text-[#1C280B]">
+        <h3 className="uppercase text-center text-[18px] font-medium text-[#1C280B] mb-[30px] md:text-[22px]">
           Our Core Values
         </h3>
-        <ValuesBox />
+        <div className="px-[90px] md:flex md:items-center md:justify-evenly gap-5 w-full md:px-16">
+          {values?.map((item) => (
+            <ValuesBox key={item?.text} {...item} />
+          ))}
+        </div>
       </div>
     </section>
   );

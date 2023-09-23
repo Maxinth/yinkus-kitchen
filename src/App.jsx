@@ -5,7 +5,7 @@ import OurStory from "./components/OurStory";
 
 function App() {
   return (
-    <main className="w-full">
+    <main className="w-full ease-in duration-100">
       <Nav />
       <HeroSection />
       <section className="bg-[#fff] mt-[70px]">
