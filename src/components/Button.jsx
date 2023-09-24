@@ -1,18 +1,18 @@
 import PropTypes from "prop-types";
 
-const Button = ({ text, bgColor, textColor }) => {
+const Button = ({ bgColor, textColor, children }) => {
   return (
     <button
       className="px-[30px] py-[10px] font-medium rounded-[20px] cursor-pointer"
       style={{ color: textColor, backgroundColor: bgColor }}
     >
-      {text}
+      {children}
     </button>
   );
 };
 
 Button.propTypes = {
-  text: PropTypes.string,
+  children: PropTypes.object,
   textColor: PropTypes.string,
   bgColor: PropTypes.string,
 };

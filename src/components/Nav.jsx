@@ -17,7 +17,9 @@ const Nav = () => {
           className="md:hidden cursor-pointer"
         />
         <div className="hidden md:block">
-          <Button text="Contact us" textColor="#660000" bgColor="#FFFFFF" />
+          <Button textColor="#660000" bgColor="#FFFFFF">
+            Contact us
+          </Button>
         </div>
       </header>
     </nav>

@@ -1,5 +1,6 @@
 import CoreValues from "./components/CoreValues";
 import HeroSection from "./components/HeroSection";
+import PatternedSection from "./components/PatternedSection";
 import Nav from "./components/Nav";
 import OurStory from "./components/OurStory";
 
@@ -12,6 +13,7 @@ function App() {
         <OurStory />
       </section>
       <CoreValues />
+      <PatternedSection />
     </main>
   );
 }
