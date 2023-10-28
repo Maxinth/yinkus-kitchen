@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import PatternedSection from "./components/PatternedSection";
 import Nav from "./components/Nav";
 import OurStory from "./components/OurStory";
+import ContactUs from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </section>
       <CoreValues />
       <PatternedSection />
+      <ContactUs />
     </main>
   );
 }
