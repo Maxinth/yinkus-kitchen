@@ -4,6 +4,7 @@ import PatternedSection from "./components/PatternedSection";
 import Nav from "./components/Nav";
 import OurStory from "./components/OurStory";
 import ContactUs from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CoreValues />
       <PatternedSection />
       <ContactUs />
+      <Footer />
     </main>
   );
 }
