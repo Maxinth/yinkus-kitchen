@@ -5,8 +5,16 @@ import Nav from "./components/Nav";
 import OurStory from "./components/OurStory";
 import ContactUs from "./components/Contact";
 import Footer from "./components/Footer";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <main className="w-full ease-in duration-100 font-Graphik">
       <Nav />

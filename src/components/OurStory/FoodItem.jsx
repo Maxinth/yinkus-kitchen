@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 const FoodItem = ({ shiftDown = false, imgSrc }) => {
   return (
     <img
+      data-aos="fade-up"
       src={imgSrc}
       alt="foodOne"
       className={`cursor-pointer ${
@@ -15,6 +16,7 @@ const FoodItem = ({ shiftDown = false, imgSrc }) => {
 FoodItem.propTypes = {
   shiftDown: PropTypes.bool,
   imgSrc: PropTypes.string,
+  index: PropTypes.number,
 };
 
 export default FoodItem;

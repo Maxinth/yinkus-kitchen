@@ -2,10 +2,17 @@ import Logo from "../assets/fork-and-knife.svg";
 import Yinkus from "../assets/Yinkus.svg";
 import Button from "./Button";
 import Hamburger from "../assets/hamburger.svg";
+import { motion } from "framer-motion";
+import { useVariants } from "./useVariants";
 
 const Nav = () => {
+  const { pageVariant, variantProps } = useVariants();
   return (
-    <nav className="w-full bg-[#660000]">
+    <motion.nav
+      variants={pageVariant(1, 0)}
+      {...variantProps}
+      className="w-full bg-[#660000]"
+    >
       <header className="p-[28px] flex items-center justify-between mx-auto max-w-[1400px]  w-full">
         <div className="logo flex items-center gap-2 ">
           <img src={Logo} alt="logo" />
@@ -22,7 +29,7 @@ const Nav = () => {
           </Button>
         </div>
       </header>
-    </nav>
+    </motion.nav>
   );
 };
 

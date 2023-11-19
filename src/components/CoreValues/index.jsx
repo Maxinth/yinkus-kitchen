@@ -1,13 +1,14 @@
 import ValuesBox from "./ValuesBox";
 import { data } from "./data";
-
 const CoreValues = () => {
   const { text, values } = data;
+
   return (
     <section className="w-full">
       <div className="mt-[50px] px-[33px] md:max-w-[920px] md:mx-auto">
         {text?.map((item, index) => (
           <p
+            data-aos="fade-down"
             className="text-sm leading-5 text-[#1C280B] tracking-[0.14px] font-normal mb-4 md:text-base md:leading-[26px] md:tracking-[0.32px]"
             key={index}
           >
