@@ -11,13 +11,13 @@ import FoodTen from "../../assets/food-10.svg";
 
 export const data = [
   { imgSrc: FoodOne, shiftDown: false },
-  { imgSrc: FoodTwo, shiftDown: true },
+  { imgSrc: FoodTwo, shiftDown: false },
   { imgSrc: FoodThree, shiftDown: false },
-  { imgSrc: FoodFour, shiftDown: true },
+  { imgSrc: FoodFour, shiftDown: false },
   { imgSrc: FoodFive, shiftDown: false },
   { imgSrc: FoodSix, shiftDown: false },
-  { imgSrc: FoodSeven, shiftDown: true },
+  { imgSrc: FoodSeven, shiftDown: false },
   { imgSrc: FoodEight, shiftDown: false },
-  { imgSrc: FoodNine, shiftDown: true },
+  { imgSrc: FoodNine, shiftDown: false },
   { imgSrc: FoodTen, shiftDown: false },
 ];

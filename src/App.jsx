@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="w-full ease-in duration-100">
+    <main className="w-full ease-in duration-100 font-Graphik">
       <Nav />
       <HeroSection />
       <section className="bg-[#fff] mt-[70px]">

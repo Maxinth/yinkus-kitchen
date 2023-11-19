@@ -18,14 +18,14 @@ const FormInput = ({
 
         {withTextArea ? (
           <textarea
-            className=" h-[132px] resize-none outline-none rounded-[10px] p-2 py-[12px] bg-transparent border border-[#C0CCDA] text-[12px] placeholder:text-[#E0E0E0] focus:bg-white w-full"
+            className=" h-[132px] resize-none outline-none rounded-[10px] p-2 py-[12px] bg-transparent border border-[#C0CCDA] text-[12px] placeholder:text-[#E0E0E0] text-white w-full"
             placeholder="Write message"
           ></textarea>
         ) : (
           <input
             type="text"
             placeholder={placeholder}
-            className="outline-none rounded-[10px] p-2 py-[12px] bg-transparent border border-[#C0CCDA] text-[12px] placeholder:text-[#E0E0E0] focus:bg-white w-full"
+            className="outline-none rounded-[10px] p-2 py-[12px] bg-transparent border border-[#C0CCDA] text-[12px] placeholder:text-[#E0E0E0] text-white w-full"
           />
         )}
       </div>
