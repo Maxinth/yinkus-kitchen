@@ -1,13 +1,13 @@
-import FoodOne from "../../assets/food-1.svg";
-import FoodTwo from "../../assets/food-2.svg";
-import FoodThree from "../../assets/food-3.svg";
-import FoodFour from "../../assets/food-4.svg";
-import FoodFive from "../../assets/food-5.svg";
-import FoodSix from "../../assets/food-6.svg";
-import FoodSeven from "../../assets/food-7.svg";
-import FoodEight from "../../assets/food-8.svg";
-import FoodNine from "../../assets/food-9.svg";
-import FoodTen from "../../assets/food-10.svg";
+import FoodOne from "../../assets/food-1.png";
+import FoodTwo from "../../assets/food-2.png";
+import FoodThree from "../../assets/food-3.png";
+import FoodFour from "../../assets/food-4.png";
+import FoodFive from "../../assets/food-5.png";
+import FoodSix from "../../assets/food-6.png";
+import FoodSeven from "../../assets/food-7.png";
+import FoodEight from "../../assets/food-8.png";
+import FoodNine from "../../assets/food-9.png";
+import FoodTen from "../../assets/food-10.png";
 
 export const data = [
   { imgSrc: FoodOne, shiftDown: false },
