@@ -5,7 +5,7 @@ import { useVariants } from "../useVariants";
 const OurStory = () => {
   const { variantProps, pageVariant } = useVariants();
   return (
-    <div className="bg-[#333] pt-[70px] px-[55px] h-fit min-h-[1200px] md:min-h-[720px]">
+    <div className="bg-[#333] py-[70px] px-[55px] h-fit">
       <motion.h3
         variants={pageVariant()}
         {...variantProps}

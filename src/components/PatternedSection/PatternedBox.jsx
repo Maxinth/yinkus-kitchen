@@ -40,12 +40,12 @@ const PatternedBox = ({
             <img
               src={imgTwoOne}
               alt="f-1"
-              className={`${scale ? "w-1/2" : "flex-1"}`}
+              className={`${scale ? "sm:w-1/2 w-full " : "flex-1"}`}
             />
             <img
               src={imgTwoTwo}
               alt="f-2"
-              className={`${scale ? "w-1/2" : "flex-1"}`}
+              className={`${scale ? "sm:w-1/2 w-full" : "flex-1"}`}
             />
           </div>
           <div className="flex flex-col items-center justify-center self-start">
