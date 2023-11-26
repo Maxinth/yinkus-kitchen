@@ -1,11 +1,11 @@
 import FoodOne from "../../assets/f-1.svg";
-import FoodTwoOne from "../../assets/f2-1.svg";
+import FoodTwoOne from "../../assets/f2-1.png";
 import FoodTwoTwo from "../../assets/f2-2.svg";
 import FoodThree from "../../assets/f3.svg";
-import ItemOne from "../../assets/is-1.svg";
-import ItemTwoOne from "../../assets/is2-1.svg";
-import ItemTwoTwo from "../../assets/is2-2.svg";
-import ItemThree from "../../assets/is3.svg";
+import ItemOne from "../../assets/is-1.png";
+import ItemTwoOne from "../../assets/is2-1.png";
+import ItemTwoTwo from "../../assets/is2-2.png";
+import ItemThree from "../../assets/is3.png";
 
 export const data = [
   {

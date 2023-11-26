@@ -1,4 +1,4 @@
-import BannerImg from "../../assets/flowers.svg";
+import BannerImg from "../../assets/flowers.png";
 import Button from "../Button";
 import FormInput from "./FormInput";
 
