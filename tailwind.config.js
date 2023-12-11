@@ -10,13 +10,15 @@ export default {
       xl: "1280px",
       "2xl": "1536px",
     },
-    fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-    },
 
     extend: {
       backgroundImage: {
         "hero-banner": "url('/src/assets/home-banner.png')",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        irishGrover: ["Irish Grover", "sans-serif"],
+        Mulish: ["Mulish", "sans-serif"],
       },
     },
   },
