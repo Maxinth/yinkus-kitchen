@@ -46,7 +46,11 @@ const HeroSection = () => {
         </Button>
       </motion.div>
       <div className="relative">
-        <img src={RotateDish} alt="rotate dish" />
+        <img
+          src={RotateDish}
+          alt="rotate dish"
+          className="animate-rotate-dish"
+        />
         <img
           src={ChefCap}
           alt="cap"

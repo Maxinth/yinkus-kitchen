@@ -20,6 +20,28 @@ export default {
         irishGrover: ["Irish Grover", "sans-serif"],
         Mulish: ["Mulish", "sans-serif"],
       },
+      keyframes: {
+        rotate: {
+          "0%": {
+            transform: "rotate3d(0, 0, 1, 0deg)",
+          },
+          "25%": {
+            transform: "rotate3d(0, 0, 1, 90deg)",
+          },
+          "50%": {
+            transform: "rotate3d(0, 0, 1, 180deg)",
+          },
+          "75%": {
+            transform: "rotate3d(0, 0, 1, 270deg)",
+          },
+          "100%": {
+            transform: "rotate3d(0, 0, 1, 360deg)",
+          },
+        },
+      },
+      animation: {
+        "rotate-dish": "rotate 10s linear infinite",
+      },
     },
   },
   plugins: [],
