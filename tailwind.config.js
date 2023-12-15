@@ -15,6 +15,8 @@ export default {
       backgroundImage: {
         "hero-banner": "url('/src/assets/home-banner.png')",
         "clients-banner": "url('/src/assets/snapshot-bg.png')",
+        "group-rotate": "url(/src/assets/group-sm.png)",
+        "group-rotate-md": "url(/src/assets/group-md.png)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

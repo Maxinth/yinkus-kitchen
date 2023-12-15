@@ -50,7 +50,7 @@ const HeroSection = () => {
           Explore <RightArrow />
         </Button>
       </motion.div>
-      <div className="relative">
+      <div className="relative md:bg-group-rotate-md bg-group-rotate bg-contain bg-center bg-no-repeat">
         <img
           src={RotateDish}
           alt="rotate dish"
