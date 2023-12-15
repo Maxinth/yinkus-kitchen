@@ -23,7 +23,12 @@ const Nav = () => {
           alt="hamburger"
           className="md:hidden cursor-pointer"
         />
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center gap-[30px]">
+          <div className="flex items-center gap-[30px] text-[#fff]">
+            <a href="#our-story">Our Story</a>
+            <a href="#our-core-values">Our core values</a>
+            <a href="#our-clients">Our clients</a>
+          </div>
           <Button textColor="#660000" bgColor="#FFFFFF">
             Contact us
           </Button>

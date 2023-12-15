@@ -14,6 +14,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-banner": "url('/src/assets/home-banner.png')",
+        "clients-banner": "url('/src/assets/snapshot-bg.png')",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
