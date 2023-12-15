@@ -19,7 +19,7 @@ function App() {
     <main className="w-full ease-in duration-100 font-Graphik">
       <Nav />
       <HeroSection />
-      <section className="bg-[#fff] mt-[70px]">
+      <section className="bg-[#fff] mt-[70px]" id="our-story">
         <OurStory />
       </section>
       <CoreValues />

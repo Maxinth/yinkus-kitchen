@@ -4,7 +4,7 @@ const CoreValues = () => {
   const { text, values } = data;
 
   return (
-    <section className="w-full">
+    <section className="w-full" id="our-core-values">
       <div className="mt-[50px] px-[33px] md:max-w-[920px] md:mx-auto">
         {text?.map((item, index) => (
           <p
