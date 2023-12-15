@@ -1,8 +1,11 @@
 import ClientsImg from "../assets/clients.png";
 const Clients = () => {
   return (
-    <section className="bg-clients-banner flex items-center" id="our-clients">
-      <div className="pl-8 text-[#1C280B]">
+    <section
+      className="bg-clients-banner flex-col flex md:flex-row pt-16 gap-2 md:p-4 md:gap-4 items-center"
+      id="our-clients"
+    >
+      <div className="p-4 md:pl-8 text-[#1C280B]">
         <h3 className="uppercase text-[22px] font-medium mb-[32px]">
           a snapshot of previous clients
         </h3>
