@@ -42,15 +42,8 @@ const HeroSection = () => {
           Discover a world of flavors in every bite, every dish tells a
           delicious story...
         </h2>
-        <Button
-          textColor={"#660000"}
-          bgColor="#fff"
-          otherClasses="border duration-150 ease-in border-[#660000] hover:cursor-pointer rounded-[30px] flex items-center group gap-2 hover:!bg-[#660000] hover:!border-[#fff] hover:!text-[#fff] !w-fit"
-        >
-          Explore <RightArrow />
-        </Button>
       </motion.div>
-      <div className="relative md:bg-group-rotate-md bg-group-rotate bg-contain bg-center bg-no-repeat">
+      <div className="relative md:bg-group-rotate-md bg-group-rotate bg-contain bg-center bg-no-repeat lg:scale-[1.6] lg:relative lg:right-20">
         <img
           src={RotateDish}
           alt="rotate dish"
@@ -59,7 +52,7 @@ const HeroSection = () => {
         <img
           src={ChefCap}
           alt="cap"
-          className="absolute top-[25%] right-[25%] left-[25%] bottom-[20%] w-40 h-40 md:top-[25%] md:bottom-[10%] md:left-[25%] md:right-[90%}  md:block md:w-fit md:h-fit"
+          className="absolute top-[25%] right-[25%] left-[25%] bottom-[20%] w-40 h-40 md:top-[35%] md:bottom-[10%] md:left-[35%] md:right-[90%}  md:block md:w-fit md:h-fit"
         />
       </div>
     </motion.div>
